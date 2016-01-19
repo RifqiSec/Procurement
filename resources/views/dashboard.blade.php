@@ -27,7 +27,7 @@
     <link href="/bower_components/morrisjs/morris.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -116,7 +116,7 @@
                             <a href="#">
                                 <div>
                                     <p>
-                                        <strong>Task 1</strong>
+                                        <strong>Project A</strong>
                                         <span class="pull-right text-muted">40% Complete</span>
                                     </p>
                                     <div class="progress progress-striped active">
@@ -194,17 +194,26 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <i class="fa fa-shopping-cart fa-fw"></i> New Orders (Project A)
                                     <span class="pull-right text-muted small">4 minutes ago</span>
                                 </div>
                             </a>
                         </li>
                         <li class="divider"></li>
-                        <li>
+                         <li>
                             <a href="#">
                                 <div>
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
-                                    <span class="pull-right text-muted small">12 minutes ago</span>
+                                    <i class="fa fa-shopping-cart fa-fw"></i> New Orders (Project A)
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                         <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-shopping-cart fa-fw"></i> New Orders (Project A)
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
                                 </div>
                             </a>
                         </li>
@@ -213,24 +222,6 @@
                             <a href="#">
                                 <div>
                                     <i class="fa fa-envelope fa-fw"></i> Message Sent
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-tasks fa-fw"></i> New Task
-                                    <span class="pull-right text-muted small">4 minutes ago</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
                                     <span class="pull-right text-muted small">4 minutes ago</span>
                                 </div>
                             </a>
@@ -283,25 +274,52 @@
                             <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Transaction<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-tasks fa-fw"></i> Transaction<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="panels-wells.html">Purchase Request</a>
+                                </li>
+                                <li>
+                                    <a href="panels-wells.html">General Purchase Request</a>
+                                </li>
                                 <li>
                                     <a href="panels-wells.html">Purchase Order</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
+                        
                         <li>
-                            <a href="#"><i class="fa fa-wrench fa-fw"></i> Master<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-money fa-fw"></i> Budgeting<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="panels-wells.html">Item</a>
+                                    <a href="panels-wells.html">Project</a>
+                                </li>
+                                <li>
+                                    <a href="panels-wells.html">Block</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>
+
                         <li>
-                            <a href="#"><i class="fa fa-files-o fa-fw"></i> Report<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-archive fa-fw"></i> Master<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="panels-wells.html">Item</a>
+                                </li>
+                                <li>
+                                    <a href="panels-wells.html">Supplier</a>
+                                </li>
+                                <li>
+                                    <a href="panels-wells.html">Project</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-bar-chart fa-fw"></i> Report<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="blank.html">Transaction</a>
@@ -313,7 +331,7 @@
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-sitemap fa-fw"></i> Utilities<span class="fa arrow"></span></a>
+                            <a href="#"><i class="fa fa-gears fa-fw"></i> Utilities<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="#">User</a>
@@ -345,11 +363,11 @@
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
+                                    <i class="fa fa-list-alt fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">26</div>
-                                    <div>New Comments!</div>
+                                    <div>Projects</div>
                                 </div>
                             </div>
                         </div>
@@ -432,35 +450,6 @@
             <!-- /.row -->
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
                     <!-- /.panel -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -687,7 +676,7 @@
                         <div class="panel-body">
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <i class="fa fa-shopping-cart fa-fw"></i> 4 New Orders
                                     <span class="pull-right text-muted small"><em>4 minutes ago</em>
                                     </span>
                                 </a>
